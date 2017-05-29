@@ -6,6 +6,7 @@
     "react-scripts": "0.7.0"
   },
   "dependencies": {
+    "react-scripts": "0.7.0",
     "axios": "^0.15.2",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
@@ -15,6 +16,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postinstall": "npm install express body-parser"
+  },
+  "engines": {
+    "node": "7.9.0",
+    "npm": "4.2.0"
   }
 }
